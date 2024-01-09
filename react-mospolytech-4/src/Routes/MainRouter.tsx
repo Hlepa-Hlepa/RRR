@@ -24,4 +24,3 @@ export const MainRouter: React.FC = () => {
   
   return useRoutes(resultPaths);
 };
-
