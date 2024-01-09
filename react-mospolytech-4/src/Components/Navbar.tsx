@@ -7,8 +7,8 @@ import {
   HOME_ROUTE,
   ORDER_ROUTE,
 } from "../Routes/configs";
-import { useAuth } from "../hooks/useAuth";
-import { useCurrentTheme } from "../hooks/useCurrentTheme";
+import { useAuth } from "../Hooks/useAuth";
+import { useCurrentTheme } from "../Hooks/useCurrentTheme";
 import { Navigation } from "./Navbar.styled";
 import ChangeThemeIcon from "../assets/icons/ChangeThemeIcon.svg";
 

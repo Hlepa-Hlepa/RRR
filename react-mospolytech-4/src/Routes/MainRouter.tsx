@@ -5,7 +5,7 @@ import { Contacts } from '../Components/pages/Contacts';
 import { Home } from '../Components/pages/Home';
 import { Order } from '../Components/pages/Order';
 import { ABOUT_ROUTE, CONTACTS_ROUTE, HOME_ROUTE, ORDER_ROUTE } from './configs';
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from '../Hooks/useAuth';
 
 export const MainRouter: React.FC = () => {
   const { isAuth } = useAuth();

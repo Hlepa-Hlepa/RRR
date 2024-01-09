@@ -1,6 +1,6 @@
 import { Table } from "antd";
 import styled from "styled-components";
-import { useUniversityData } from "./hooks/useUniversityData";
+import { useUniversityData } from "./Hooks/useUniversityData";
 import { columns } from "./constants/constants";
 import { Navbar } from "./Components/Navbar";
 import "./styles/index.css";
