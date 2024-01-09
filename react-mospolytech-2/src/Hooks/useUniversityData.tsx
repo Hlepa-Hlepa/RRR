@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { DataType } from '../Interfaces/DataType';
-import { LIMIT_LIST_SCHOOL } from '../Constants/constants';
+import { LIMIT_LIST_SCHOOL } from '../constants/constants';
 
 export const useUniversityData = () => {
   const [dataSource, setDataSource] = useState<DataType[]>([]);

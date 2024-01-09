@@ -1,7 +1,7 @@
 import { Table } from "antd";
 import styled from "styled-components";
 import { useUniversityData } from "./Hooks/useUniversityData";
-import { columns } from "./Constants/constants";
+import { columns } from "./constants/constants";
 import { Navbar } from "./Components/Navbar";
 import "./styles/index.css";
 import MainRouter from "./Routes/MainRouter";
