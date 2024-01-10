@@ -1,12 +1,12 @@
 <<<<<<<< HEAD:react-mospolytech-2/src/Hooks/useUniversityData.tsx
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { DataType } from '../Interfaces/DataType';
+import { FacultyDataType } from '../Interfaces/DataType';
 import { LIMIT_LIST_SCHOOL } from '../constants/constants';
 ========
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { DataType } from "../interfaces/IDataType";
+import { FacultyDataType } from "../interfaces/IDataType";
 import { LIMIT_LIST_SCHOOL } from "../constants/constants";
 >>>>>>>> styled:react-mospolytech-3/src/Hooks/useUniversityData.tsx
 
